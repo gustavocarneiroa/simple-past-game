@@ -92,7 +92,7 @@
         </div>
         <div v-if="!finished_class" class="row align-items-center" style="height: 100%;">
             <div class="col-2">
-                <button class="btn btn-light shadow" @click="responseIs('irregular')" :disabled="isAnswered">Irregular Verb</button>
+                <button class="btn btn-light shadow" @click="responseIs('irregular')" v-if="!isAnswered">Irregular Verb</button>
             </div>
             <div class="middle col-8" style="display: flex;" v-if="!isAnswered">
                 <h1>{{ actualWord.verb?.toUpperCase() }}</h1>
@@ -100,14 +100,14 @@
             <div class="middle col-8" style="display: flex;flex-direction: column;align-items: center;" v-else >
                 <h1 v-if="isRightAnswer">YOU RIGHT! GREAT JOB!</h1>
                 <h1 v-if="isWrongAnswer">OOPS, THAT'S NOT RIGHT</h1>
-                <span class="conjugation m-2">
+                <span class="conjugation mb-4" style="text-align: left;">
                     {{ actualWord.conjugation }}
                 </span>
-                <button class="btn btn-light shadow" @click="nextWord"> Next verb </button>
+                <button class="btn btn-light shadow" style="padding: 1% 3%; font-size: 130%;" @click="nextWord"> Next verb </button>
             </div>
 
             <div class="col-2">
-                <button class="btn btn-light shadow" @click="responseIs('regular')" :disabled="isAnswered" style="float: right;">Regular Verb</button>
+                <button class="btn btn-light shadow" @click="responseIs('regular')" v-if="!isAnswered" style="float: right;">Regular Verb</button>
             </div>
         </div>
 
