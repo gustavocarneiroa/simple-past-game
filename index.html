@@ -112,7 +112,10 @@
         </div>
 
         <div class="row middle" style="height: 100%;" v-else>
-            <h1 class="m-5" style="text-align: center">THE END</h1>
+            <h1 class="m-3" style="text-align: center">THE END</h1>
+            <p style="display: flex;" class="middle">
+                <button class="btn btn-danger m-4" @click="shareViaWebShare">🔗 Compartilhar</button>
+            </p>
             <img src="https://c.tenor.com/jz-8XJAa4_YAAAAC/thats-all-folks.gif" style="padding:0;width: 400px;border-radius: 15%;box-shadow: 0 1rem 3rem black!important;">
         </div>
     </div>
@@ -120,11 +123,12 @@
 </body>
 <script src="verbs.js"></script>
 <script>
-    console.log(verbArray)
+
     new Vue({
         el: '#app',
         data: {
             words: verbArray,
+            amount: verbArray.length,
             actualWord: {},
             finished_class: false,
             isAnswered: false,
@@ -159,6 +163,20 @@
                 this.isRightAnswer = false;
                 this.isWrongAnswer = false;
                 this.isAnswered = false;
+            },
+            shareViaWebShare() {
+
+                console.log({
+                    title: 'Simple Past Game',
+                    text: `I got ${this.right_counter} out of ${this.amount}. Você consegue bater o meu placar?`,
+                    url: window.location.href
+                })
+
+                navigator.share({
+                    title: 'Simple Past Game',
+                    text: `I got ${this.right_counter} out of ${this.amount}. Você consegue bater o meu placar?`,
+                    url: window.location.href
+                })
             }
         },
         mounted() {
