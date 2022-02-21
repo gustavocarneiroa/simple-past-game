@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Past Game</title>
+    <title>Simple Past Game | Teacher Késsia Lima</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,9 +114,9 @@
         <div class="row middle" style="height: 100%;" v-else>
             <h1 class="m-3" style="text-align: center">THE END</h1>
             <p style="display: flex;" class="middle">
-                <button class="btn btn-danger m-4" @click="shareViaWebShare">🔗 Compartilhar</button>
+                <button class="btn btn-light shadow m-4" @click="shareViaWebShare">🔗 Compartilhar</button>
             </p>
-            <img src="https://c.tenor.com/jz-8XJAa4_YAAAAC/thats-all-folks.gif" style="padding:0;width: 400px;border-radius: 15%;box-shadow: 0 1rem 3rem black!important;">
+            <img class="shadow-lg" src="https://c.tenor.com/jz-8XJAa4_YAAAAC/thats-all-folks.gif" style="padding:0;width: 400px;border-radius: 15%;">
         </div>
     </div>
 
@@ -130,7 +130,7 @@
             words: verbArray,
             amount: verbArray.length,
             actualWord: {},
-            finished_class: true,
+            finished_class: false,
             isAnswered: false,
             isRightAnswer: false,
             isWrongAnswer: false,
@@ -167,10 +167,9 @@
             shareViaWebShare() {
 
                 const message = `I got ${this.right_counter} out of ${this.amount}.\n\n Você consegue bater o meu placar?\n`; 
-                console.log(message)
 
                 navigator.share({
-                    title: 'Simple Past Game',
+                    title: 'Simple Past Game | Teacher Késsia Lima',
                     text: message,
                     url: window.location.href
                 })

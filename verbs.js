@@ -8,301 +8,301 @@ they studied` },
 { verb: 'learn', type: 'regular', conjugation: 
 `I learned
 you learned
-he learned
+he/she/it learned
 we learned
 you learned
 they learned` },
 { verb: 'walk', type: 'regular', conjugation: 
 `I walked
 you walked
-he walked
+he/she/it walked
 we walked
 you walked
 they walked` },
 { verb: 'love', type: 'regular', conjugation:
 `I loved
 you loved
-he loved
+he/she/it loved
 we loved
 you loved
 they loved` },
 { verb: 'close', type: 'regular', conjugation:
 `I closed
 you closed
-he closed
+he/she/it closed
 we closed
 you closed
 they closed` },
 { verb: 'work', type: 'regular', conjugation:
 `I worked
 you worked
-he worked
+he/she/it worked
 we worked
 you worked
 they worked` },
 { verb: 'call', type: 'regular', conjugation:
 `I called
 you called
-he called
+he/she/it called
 we called
 you called
 they called` },
 { verb: 'Accept', type: 'regular', conjugation: 
 `I accepted
 you accepted
-he accepted
+he/she/it accepted
 we accepted
 you accepted
 they accepted` },
 { verb: 'Agree', type: 'regular', conjugation: 
 `I agreed
 you agreed
-he agreed
+he/she/it agreed
 we agreed
 you agreed
 they agreed` },
 { verb: 'Ask', type: 'regular', conjugation: 
 `I asked
 you asked
-he asked
+he/she/it asked
 we asked
 you asked
 they asked` },
 { verb: 'Believe', type: 'regular', conjugation: 
 `I believed
 you believed
-he believed
+he/she/it believed
 we believed
 you believed
 they believed` },
 { verb: 'Call', type: 'regular', conjugation: 
 `I called
 you called
-he called
+he/she/it called
 we called
 you called
 they called` },
 { verb: 'Close', type: 'regular', conjugation: 
 `I closed
 you closed
-he closed
+he/she/it closed
 we closed
 you closed
 they closed` },
 { verb: 'Decide', type: 'regular', conjugation: 
 `I decided
 you decided
-he decided
+he/she/it decided
 we decided
 you decided
 they decided` },
 { verb: 'Dress', type: 'regular', conjugation: 
 `I dressed
 you dressed
-he dressed
+he/she/it dressed
 we dressed
 you dressed
 they dressed` },
 { verb: 'Die', type: 'regular', conjugation: 
 `I died
 you died
-he died
+he/she/it died
 we died
 you died
 they died` },
 { verb: 'Enjoy', type: 'regular', conjugation: 
 `I enjoyed
 you enjoyed
-he enjoyed
+he/she/it enjoyed
 we enjoyed
 you enjoyed
 they enjoyed` },
 { verb: 'Fix', type: 'regular', conjugation: 
 `I fixed
 you fixed
-he fixed
+he/she/it fixed
 we fixed
 you fixed
 they fixed` },
 { verb: 'Fry', type: 'regular', conjugation: 
 `I fried
 you fried
-he fried
+he/she/it fried
 we fried
 you fried
 they fried` },
 { verb: 'Need', type: 'regular', conjugation: 
 `I needed
 you needed
-he needed
+he/she/it needed
 we needed
 you needed
 they needed` },
 { verb: 'Open', type: 'regular', conjugation: 
 `I opened
 you opened
-he opened
+he/she/it opened
 we opened
 you opened
 they opened` },
 { verb: 'Shop', type: 'regular', conjugation: 
 `I shopped
 you shopped
-he shopped
+he/she/it shopped
 we shopped
 you shopped
 they shopped` },
 { verb: 'Do', type: 'irregular', conjugation: 
 `I did
 you did
-he did
+he/she/it did
 we did
 you did
 they did` },
 { verb: 'Go', type: 'irregular', conjugation: 
 `I went
 you went
-he went
+he/she/it went
 we went
 you went
 they went` },
 { verb: 'Buy', type: 'irregular', conjugation: 
 `I bought
 you bought
-he bought
+he/she/it bought
 we bought
 you bought
 they bought` },
 { verb: 'Choose', type: 'irregular', conjugation: 
 `I chose
 you chose
-he chose
+he/she/it chose
 we chose
 you chose
 they chose` },
 { verb: 'Break', type: 'irregular', conjugation: 
 `I broke
 you broke
-he broke
+he/she/it broke
 we broke
 you broke
 they broke` },
 { verb: 'Fell', type: 'irregular', conjugation: 
 `I felt
 you felt
-he felt
+he/she/it felt
 we felt
 you felt
 they felt` },
 { verb: 'Hear', type: 'irregular', conjugation: 
 `I heard
 you heard
-he heard
+he/she/it heard
 we heard
 you heard
 they heard` },
 { verb: 'Build', type:'irregular' , conjugation: 
 `I built
 you built
-he built
+he/she/it built
 we built
 you built
 they built` },
 { verb: 'Bring', type: 'irregular', conjugation: 
 `I brought
 you brought
-he brought
+he/she/it brought
 we brought
 you brought
 they brought` },
 { verb: 'Come', type: 'irregular', conjugation: 
 `I came
 you came
-he came
+he/she/it came
 we came
 you came
 they came` },
 { verb: 'Drive', type: 'irregular', conjugation: 
 `I drove
 you drove
-he drove
+he/she/it drove
 we drove
 you drove
 they drove` },
 { verb: 'Drink', type: 'irregular', conjugation: 
 `I drank
 you drank
-he drank
+he/she/it drank
 we drank
 you drank
 they drank` },
 { verb: 'Fall', type: 'irregular', conjugation: 
 `I fell
 you fell
-he fell
+he/she/it fell
 we fell
 you fell
 they fell` },
 { verb: 'Find', type: 'irregular', conjugation: 
 `I found
 you found
-he found
+he/she/it found
 we found
 you found
 they found` },
 { verb: 'Give', type: 'irregular', conjugation: 
 `I gave
 you gave
-he gave
+he/she/it gave
 we gave
 you gave
 they gave` },
 { verb: 'Have', type: 'irregular', conjugation: 
 `I had
 you had
-he had
+he/she/it had
 we had
 you had
 they had` },
 { verb: 'Keep', type: 'irregular', conjugation: 
 `I kept
 you kept
-he kept
+he/she/it kept
 we kept
 you kept
 they kept` },
 { verb: 'Know', type: 'irregular', conjugation: 
 `I knew
 you knew
-he knew
+he/she/it knew
 we knew
 you knew
 they knew` },
 { verb: 'Make', type: 'irregular', conjugation: 
 `I made
 you made
-he made
+he/she/it made
 we made
 you made
 they made` },
 { verb: 'Say', type: 'irregular', conjugation: 
 `I said
 you said
-he said
+he/she/it said
 we said
 you said
 they said` },
 { verb: 'Speak', type: 'irregular', conjugation: 
 `I spoke
 you spoke
-he spoke
+he/she/it spoke
 we spoke
 you spoke
 they spoke` },
 { verb: 'Write', type: 'irregular', conjugation: 
 `I wrote
 you wrote
-he wrote
+he/she/it wrote
 we wrote
 you wrote
 they wrote` }]
