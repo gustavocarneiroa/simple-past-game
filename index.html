@@ -130,7 +130,7 @@
             words: verbArray,
             amount: verbArray.length,
             actualWord: {},
-            finished_class: false,
+            finished_class: true,
             isAnswered: false,
             isRightAnswer: false,
             isWrongAnswer: false,
@@ -166,15 +166,12 @@
             },
             shareViaWebShare() {
 
-                console.log({
-                    title: 'Simple Past Game',
-                    text: `I got ${this.right_counter} out of ${this.amount}. Você consegue bater o meu placar?`,
-                    url: window.location.href
-                })
+                const message = `I got ${this.right_counter} out of ${this.amount}.\n\n Você consegue bater o meu placar?\n`; 
+                console.log(message)
 
                 navigator.share({
                     title: 'Simple Past Game',
-                    text: `I got ${this.right_counter} out of ${this.amount}. Você consegue bater o meu placar?`,
+                    text: message,
                     url: window.location.href
                 })
             }
