@@ -1,4 +1,5 @@
-const verbArray = [{ verb: 'study', type: 'regular', conjugation: 
+const verbArray = [
+{ verb: 'study', type: 'regular', conjugation: 
 `I studied
 you studied
 he/she/it studied
